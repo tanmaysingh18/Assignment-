@@ -6,7 +6,7 @@ public class A1q4 {
 	int b=9;
 	int c=4;
 	int d=2;
-	int max;
+	string max;
 	max=((a>b && a>c && a>d)? "a":(b>c && b>d)?"b":(c>d)? "c" :"d");
 	System.out.println(max);
 	}
