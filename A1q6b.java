@@ -6,8 +6,8 @@ public class A1q6b {
 	
 if(year%4==0)
 {
-
-if(year%400==0) {
+System.out.println("leap yr");}
+else if(year%400==0) {
 
 	if(year%100==0) {  System.out.println("leap yr");}	}}	
 	else {System.out.println("not");}
